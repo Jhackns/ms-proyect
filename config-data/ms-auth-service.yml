@@ -1,6 +1,6 @@
 server:
 
-  port: ${PORT:${SERVERS_PORT:0}}
+  port: 8081
 
 spring:
   jpa:
@@ -18,11 +18,11 @@ spring:
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://localhost:8090/eureka
-      defaultZone: ${EUREKA_URI:http://localhost:8090/eureka}
+      defaultZone: http://localhost:8090/eureka
+      #defaultZone: ${EUREKA_URI:http://localhost:8090/eureka}
   instance:
-    #hostname: localhost
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    hostname: localhost
+    #instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 jwt:
   secret: secret

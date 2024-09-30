@@ -1,4 +1,4 @@
-package org.example.mspedido.repository;
+package com.example.mspedido.repository;
 
 import com.example.mspedidoservice.entity.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,8 +1,8 @@
-package org.example.mspedido.controller;
+package com.example.mspedido.controller;
 
 import com.example.mspedidoservice.entity.Pedido;
 import com.example.mspedidoservice.service.PedidoService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package org.example.mspedido;
+package com.example.mspedido;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

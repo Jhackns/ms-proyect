@@ -1,4 +1,4 @@
-package org.example.mspedido.service.impl;
+package com.example.mspedido.service.impl;
 
 import com.example.mspedidoservice.entity.Pedido;
 import com.example.mspedidoservice.entity.PedidoDetalle;

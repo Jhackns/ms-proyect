@@ -1,4 +1,4 @@
-package org.example.mspedido.entity;
+package com.example.mspedido.entity;
 
 import com.example.mspedidoservice.dto.ClienteDto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

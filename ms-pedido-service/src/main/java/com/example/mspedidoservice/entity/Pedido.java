@@ -24,4 +24,7 @@ public class Pedido {
     @Transient
     ClienteDto clienteDto;
 
+    public PedidoDetalle[] getPedidoDetalles() {
+        return this.detalle.toArray(new PedidoDetalle[0]);
+    }
 }
